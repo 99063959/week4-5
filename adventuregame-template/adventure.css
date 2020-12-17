@@ -1,0 +1,72 @@
+body, html{   
+	height: 100%;   
+	overflow: hidden; 
+}   
+
+#title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	margin: 0 auto;
+	color: white;
+	background-color: black;
+}
+
+#game-container{    
+	background-image:url("img/voetbalveld.jpg");   
+	height: 100%;       
+	background-position: center;   
+	background-repeat: no-repeat;   
+	background-size: cover;  
+}
+
+#button1, #button2, #button3{
+	background-color: red;
+	margin: 10px;
+	font-size: 30px;
+}
+
+#game-buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+	margin: 0 auto;
+}
+
+#description{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	bottom: 100px;
+	margin: 0 auto;
+	font-size: 25px;
+}
+
+#inventoryItem{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	bottom: 200px;
+	right: 170px;
+	opacity: 0.5;
+}
+
+#voetbalschoen{
+	position: absolute;
+	right: 400px;
+	bottom: 220px;
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+}
